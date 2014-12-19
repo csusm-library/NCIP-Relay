@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NCIPMessage PUBLIC "-//NISO//NCIP DTD Version 1.0//EN" "http://www.niso.org/ncip/v1_0/imp1/dtd/ncip_v1_0.dtd">
+<NCIPMessage version="http://www.niso.org/ncip/v1_0/imp1/dtd/ncip_v1_0.dtd">
+    <ItemRequested>
+        <InitiationHeader>
+            <FromAgencyId>
+                <UniqueAgencyId>
+                    <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=UniqueAgencyId</Scheme>
+                    <Value datatype="string"><INN-REACH SITE CODE OF SENDER></Value>
+                </UniqueAgencyId>
+            </FromAgencyId>
+            <ToAgencyId>
+                <UniqueAgencyId>
+                    <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=UniqueAgencyId</Scheme>
+                    <Value datatype="string"><INN-REACH SITE CODE></Value>
+                </UniqueAgencyId>
+            </ToAgencyId>
+        </InitiationHeader>
+        <UniqueUserId>
+            <UniqueAgencyId>
+                <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=UniqueAgencyId</Scheme>
+                <Value datatype="string"><INN-REACH SITE CODE OF SENDER></Value>
+            </UniqueAgencyId>
+            <UserIdentifierValue datatype="string">p999999</UserIdentifierValue>
+        </UniqueUserId>
+        <UniqueItemId>
+            <UniqueAgencyId>
+                <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=UniqueAgencyId</Scheme>
+                <Value datatype="string"><INN-REACH SITE CODE></Value>
+            </UniqueAgencyId>
+            <ItemIdentifierValue datatype="string">30680002139924</ItemIdentifierValue>
+        </UniqueItemId>
+        <RequestType>
+            <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=RequestType</Scheme>
+            <Value datatype="string">hold</Value>
+        </RequestType>
+        <RequestScopeType>
+            <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=RequestScopeType</Scheme>
+            <Value datatype="string">item</Value>
+        </RequestScopeType>
+        <DateOfUserRequest datatype="dateTime">2014-07-24T15:17:00Z</DateOfUserRequest>
+        <ItemOptionalFields>
+            <BibliographicDescription>
+                <Author datatype="string">Weir, Julian Alden, 1852-1919.</Author>
+                <Title datatype="string">Idle hours [slide]</Title>
+                <MediumType>
+                    <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=MediumType</Scheme>
+                    <Value datatype="string">Circuit Test type</Value>
+                </MediumType>
+            </BibliographicDescription>
+            <ItemDescription>
+                <CallNumber datatype="string">382 W425Ju</CallNumber>
+            </ItemDescription>
+        </ItemOptionalFields>
+        <UserOptionalFields>
+            <UserPrivilege>
+                <UniqueAgencyId>
+                    <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=UniqueAgencyId</Scheme>
+                    <Value datatype="string"><INN-REACH SITE CODE OF SENDER></Value>
+                </UniqueAgencyId>
+                <AgencyUserPrivilegeType>
+                    <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=AgencyUserPrivilegeType</Scheme>
+                    <Value datatype="string">CIRCUIT UNDERGRAD</Value>
+                </AgencyUserPrivilegeType>
+            </UserPrivilege>
+        </UserOptionalFields>
+    </ItemRequested>
+</NCIPMessage>

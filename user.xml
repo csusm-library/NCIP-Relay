@@ -1,0 +1,46 @@
+<!DOCTYPE NCIPMessage PUBLIC "-//NISO//NCIP DTD Version 1.0//EN" "http://www.niso.org/ncip/v1_0/imp1/dtd/ncip_v1_0.dtd">
+<NCIPMessage version="http://www.niso.org/ncip/v1_0/imp1/dtd/ncip_v1_0.dtd">
+    <LookupUser>
+        <InitiationHeader>
+            <FromAgencyId>
+                <UniqueAgencyId>
+                    <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=UniqueAgencyId</Scheme>
+                    <Value datatype="string"><INN-REACH SITE CODE OF SENDER></Value>
+                </UniqueAgencyId>
+            </FromAgencyId>
+            <ToAgencyId>
+                <UniqueAgencyId>
+                    <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=UniqueAgencyId</Scheme>a
+                    <Value datatype="string"><INN-REACH SITE CODE></Value>
+                </UniqueAgencyId>
+            </ToAgencyId>
+        </InitiationHeader>
+        <VisibleUserId>
+            <VisibleUserIdentifierType>
+                <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=VisibleUserIdentifierType</Scheme>
+                <Value datatype="string">Barcode</Value>
+            </VisibleUserIdentifierType>
+            <VisibleUserIdentifier datatype="string">0000000000000000</VisibleUserIdentifier>
+        </VisibleUserId>
+        <UserElementType>
+            <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=UserElementType</Scheme>
+            <Value datatype="string">Name Information</Value>
+        </UserElementType>
+        <UserElementType>
+            <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=UserElementType</Scheme>
+            <Value datatype="string">User Address Information</Value>
+        </UserElementType>
+        <UserElementType>
+            <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=UserElementType</Scheme>
+            <Value datatype="string">Visible User Id</Value>
+        </UserElementType>
+        <UserElementType>
+            <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=UserElementType</Scheme>
+            <Value datatype="string">User Privilege</Value>
+        </UserElementType>
+        <UserElementType>
+            <Scheme datatype="string">http://<INN-REACH SERVER IP>:<PORT>:6601/IRCIRCD?target=get_scheme_values&amp;scheme=UserElementType</Scheme>
+            <Value datatype="string">Block Or Trap</Value>
+        </UserElementType>
+    </LookupUser>
+</NCIPMessage>
